@@ -41,7 +41,26 @@
             color: #2c3e50;
             margin-bottom: 20px;
         }
+        /* 模块通用样式 */
+        .module {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
 
+        .skill-items {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            padding: 8px 15px;
+            background: #e9ecef;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
         .social-links {
             text-align: center;
             margin-top: 30px;
@@ -71,7 +90,15 @@
         <img src="/touxiang.jpg" alt="头像" class="avatar">
         <h1>你好，我是jing</h1>
         <p>📍 城市 | 💻 开发者 | 🌱 正在学习...</p>
-        
+        <!-- 在社交链接上方添加 -->
+        <section class="module skills">
+            <h2>🛠️ 技术栈</h2>
+            <div class="skill-items">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+            </div>
+        </section>
         <div class="social-links">
             <a href="#github链接" target="_blank">GitHub</a>
             <a href="#博客链接" target="_blank">博客</a>
